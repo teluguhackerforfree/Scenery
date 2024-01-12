@@ -21,10 +21,10 @@ stages:
       vmImage: ubuntu-latest
     steps:
     - task: Docker@2
-  inputs:
-    containerRegistry: 'docker'
-    repository: 'teluguhackerforfree/scenery'
-    command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+      inputs:
+        containerRegistry: 'docker'
+        repository: 'teluguhackerforfree/scenery'
+        command: 'buildAndPush'
+        Dockerfile: '**/Dockerfile'
 
    
