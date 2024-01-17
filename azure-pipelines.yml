@@ -23,6 +23,6 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'dockerservice2'
-        repository: 'teluguhackerforfree1/scenery'
+        repository: 'teluguhackerforfree/scenery'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
